@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+   <!--home section-->
+   <section class="home">
+        <div class="home-text">
+            <h1>TRAVEL</h1>
+            <h2>To Explore</h2>
+            <p>Passport is a magnificent travel agency services website template<br> that you can use to boost your online presence.</p>
+            <a href="#" class="btn">Search your Trip</a>
+        </div>
+   </section>
+   <!--feature section-->
+   <section class="place1">
+      <div class="place1-img">
+        <img src="{% static 'img/header15.jpg' %}" style="width:400px" "height:100px" "border-radius:12px"; alt="">
+      </div>
+      <div class="place1-text">
+        <h5>Inspire your Life</h5>
+        <h2>Let's Travel</h2>
+        <p>Road trips are one of my favorite ways to explore a country. They give you the freedom to go where you want, travel away from the tourist crowds, and usually even save you money compared to taking trains, buses, or flights..</p>
+          <a href="#" class="btn">Explore More</a>
+        </div>
+   </section>
+    <section class="tour">
+       
+          <div class="tour-text">
+            <h2>BEST SELLING TOURS</h2>
+          </div>
+          <div class="tour-content">
+              <div class="box">
+                <img src="{% static 'img/header14.jpg' %}" alt="">
+                <h6>KARNATAKA</h6>
+                <h4>Pattadakal</h4>
+              </div> 
+              <div class="box">
+                <img src="{% static 'img/header13.jpg' %}" alt="">
+                <h6>BIJAPUR</h6>
+                <h4>Ibrahim Roza</h4>
+              </div> 
+              <div class="box">
+                <img src="{% static 'img/header12.jpg' %}" alt="">
+                <h6>MYSORE</h6>
+                <h4>Mysore Palace</h4>
+              </div> 
+        </div>
+        <div class="center-btn">
+          <a href="#" class="btn">VIEW ALL DESTINATIONS</a>
+    </section>
+    <section class="home1">
+      <div class="home1-text">
+          <h1>THE BEST VACATION AMONG NATURE</h1>
+         
+          
+        <div class="center1-btn">
+          <a href="#" class="btn">Explore More</a>
+        </div>
+      </div>
+ </section>
+ <section class="culture">
+    <div class="culture-text">
+      <h5>THE REAL CULTURE</h5>
+      <h2>Indian culture is full of unique traditions.</h2>
+      <p>Appropriate attire is really important, namely conservative clothing to indicate respect.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="culture-img">
+      <img src="{% static 'img/header17.jpg' %}" alt="">
+    <div>
+    </section>
+    <!--newsleter section-->
+    <section class-"newsletter">
+        <div class="newsletter-content">
+            <div class="newsletter-text">
+                <h2>Get In Touch</h2>
+                <p>Let's go on vacation,make you day</p>
+            </div>
+            <form action="">
+                <input type="email" placeholder="E-mail" required>
+                <input type="Name" placeholder="Name" required>
+                <input type="submit" value="Get Started" class="btn">
+            </form>
+        </div>
+    </section>
+{% endblock %}
+{% include "footer.html" %}
